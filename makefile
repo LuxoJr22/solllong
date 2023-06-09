@@ -6,13 +6,14 @@
 #    By: mboyer <mboyer@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/09 12:18:13 by mboyer            #+#    #+#              #
-#    Updated: 2023/06/09 17:27:58 by mboyer           ###   ########.fr        #
+#    Updated: 2023/06/09 17:36:51 by mboyer           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
 SRCS = display.c get_map.c init.c lib.c map.c scene_manager.c so_long.c sprites.c \
 		sub.c
+
 SRCS_BONUS = bonus/srcs/so_long.c bonus/srcs/map/map.c bonus/srcs/map/map2.c\
 		bonus/srcs/display/sprites.c bonus/srcs/sub.c bonus/srcs/display/display.c\
 		bonus/srcs/key_manager.c bonus/srcs/player/player.c bonus/srcs/enemies/enemies.c\
